@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
+import { AppRoutingModule } from './app-routing/app-routing.module';
 import { AppComponent } from './app.component';
 import { ListarticleComponent } from './listarticle/listarticle.component';
 import { CreatearticleComponent } from './createarticle/createarticle.component';
 import { EditarticleComponent } from './editarticle/editarticle.component';
-
+import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +16,10 @@ import { EditarticleComponent } from './editarticle/editarticle.component';
     EditarticleComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
