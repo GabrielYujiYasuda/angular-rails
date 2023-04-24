@@ -1,6 +1,7 @@
 
 <h1 align="center">Angular and Rails</h1>
 
+<p><i>Work in progress...</i> </p>
 <h3 align="center">This project is a Full Stack one.</h3>
 <h4>Here I could use Angular on Front-End and Rails to build the API. </h4>
 
