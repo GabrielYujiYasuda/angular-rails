@@ -43,6 +43,10 @@ class Api::V1::ArticlesController < ApplicationController
     end
   end
 
+  def new
+    article = Article.new
+  end
+
   def destroy
     article = Article.find(params[:id])
 

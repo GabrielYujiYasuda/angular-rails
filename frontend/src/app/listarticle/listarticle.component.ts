@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ArticleService } from '../services/article.service';
+
 @Component({
   selector: 'app-listarticle',
   templateUrl: './listarticle.component.html',
@@ -7,7 +8,7 @@ import { ArticleService } from '../services/article.service';
 })
 export class ListarticleComponent {
 
-  articles:any;
+  articles: any;
 
   constructor(private articleService: ArticleService) { }
 
